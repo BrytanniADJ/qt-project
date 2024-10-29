@@ -51,7 +51,7 @@ tutorial_pt2.pushBack.clicked.connect(nextPage1) # tutorial 1
 tutorial_pt1.pushNext.clicked.connect(nextPage2) # tutorial 2
 tutorial_pt3.pushBack.clicked.connect(nextPage2)
 tutorial_pt2.pushNext.clicked.connect(nextPage3) # tutorial 3
-tutorial_pt3.pushNext.clicked.connect(pular_tutorial) # tutorial 3
+tutorial_pt3.pushNext.clicked.connect(pular_tutorial) # sair do tutorial
 
 
 tutorial_pt1.show()

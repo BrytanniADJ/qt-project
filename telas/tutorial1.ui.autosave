@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>444</width>
+    <height>698</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LOGIN</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #3e746a;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>515</y>
+      <width>141</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagens/produtores.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>510</y>
+      <width>141</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagens/produtores2.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-25</x>
+      <y>-70</y>
+      <width>206</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #36635b;
+border-radius: 90%;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>-110</y>
+      <width>206</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #36635b;
+border-radius: 50%;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>20</y>
+      <width>116</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagens/hortifruit-1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-135</x>
+      <y>65</y>
+      <width>206</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #36635b;
+border-radius: 50%;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>155</x>
+      <y>65</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #36635b;
+border-radius: 25px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_6" native="true">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>100</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #36635b;
+border-radius: 25px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_7" native="true">
+    <property name="geometry">
+     <rect>
+      <x>295</x>
+      <y>0</y>
+      <width>46</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #36635b;
+border-radius: 20px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_8" native="true">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>35</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #36635b;
+border-radius: 15px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_9" native="true">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>105</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #305a52;
+border-radius: 10px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_10" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #36635b;
+border-radius: 15px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_11" native="true">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>66</width>
+      <height>66</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #305a52;
+border-radius: 30px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_12" native="true">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>30</y>
+      <width>66</width>
+      <height>66</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #305a52;
+border-radius: 30px;</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>275</y>
+      <width>396</width>
+      <height>276</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent; color: #eaa82d;
+line-height: 20px;</string>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans'; font-size:16pt; font-weight:700;&quot;&gt;O Hortas APP é uma iniciativa da UFSJ em conjunto com as hortas comunitárias de Sete Lagoas (MG) e com a Multitécnica, uma plataforma que conecta diretamente os consumidores, facilitando a comercialização de produtos frescos por meio de um sistema de venda simplificado e eficiente.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>150</y>
+      <width>306</width>
+      <height>96</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: #d0d8d6;</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans'; font-size:16pt; font-weight:700;&quot;&gt;Já pensou em ter seus produtos preferidos na palma de sua mão?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushJump">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>15</y>
+      <width>86</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pular Tutorial</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_13" native="true">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>645</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #305a52;
+border-radius: 10px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_14" native="true">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>645</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #305a52;
+border-radius: 10px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_15" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>645</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #aaaea9;
+border-radius: 10px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushNext">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>220</y>
+      <width>46</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 35px;
+/*border-radius: 24px;</string>
+    </property>
+    <property name="text">
+     <string>🠖</string>
+    </property>
+   </widget>
+   <zorder>widget_6</zorder>
+   <zorder>widget_5</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>widget</zorder>
+   <zorder>widget_3</zorder>
+   <zorder>widget_4</zorder>
+   <zorder>widget_7</zorder>
+   <zorder>widget_8</zorder>
+   <zorder>widget_9</zorder>
+   <zorder>widget_10</zorder>
+   <zorder>widget_11</zorder>
+   <zorder>widget_12</zorder>
+   <zorder>label</zorder>
+   <zorder>textBrowser</zorder>
+   <zorder>textBrowser_2</zorder>
+   <zorder>pushJump</zorder>
+   <zorder>widget_13</zorder>
+   <zorder>widget_14</zorder>
+   <zorder>widget_15</zorder>
+   <zorder>pushNext</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>444</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

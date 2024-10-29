@@ -30,6 +30,9 @@ def nextPage2():
     tutorial_pt1.close()
     tutorial_pt3.close()
 
+def nextPage3():
+    tutorial_pt3.show()
+    tutorial_pt2.close()
 
 # Parte de login
 login = uic.loadUi('telas/loginwindow.ui')
@@ -44,8 +47,12 @@ tutorial_pt1.pushJump.clicked.connect(pular_tutorial)
 tutorial_pt2.pushJump.clicked.connect(pular_tutorial)
 tutorial_pt3.pushJump.clicked.connect(pular_tutorial)
 # next e jump
+tutorial_pt2.pushBack.clicked.connect(nextPage1) # tutorial 1
 tutorial_pt1.pushNext.clicked.connect(nextPage2) # tutorial 2
 tutorial_pt3.pushBack.clicked.connect(nextPage2)
+tutorial_pt2.pushNext.clicked.connect(nextPage3) # tutorial 3
+tutorial_pt3.pushNext.clicked.connect(pular_tutorial) # tutorial 3
+
 
 tutorial_pt1.show()
 app.exec()

@@ -21,7 +21,7 @@
     <property name="geometry">
      <rect>
       <x>45</x>
-      <y>530</y>
+      <y>515</y>
       <width>141</width>
       <height>131</height>
      </rect>
@@ -40,7 +40,7 @@
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>530</y>
+      <y>510</y>
       <width>141</width>
       <height>131</height>
      </rect>
@@ -282,6 +282,78 @@ li.checked::marker { content: &quot;\2612&quot;; }
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans'; font-size:16pt; font-weight:700;&quot;&gt;Já pensou em ter seus produtos preferidos na palma de sua mão?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushJump">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>15</y>
+      <width>86</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pular Tutorial</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_13" native="true">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>645</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #305a52;
+border-radius: 10px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_14" native="true">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>645</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #305a52;
+border-radius: 10px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_15" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>645</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #aaaea9;
+border-radius: 10px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushNext">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>220</y>
+      <width>46</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 35px;
+/*border-radius: 24px;</string>
+    </property>
+    <property name="text">
+     <string>🠖</string>
+    </property>
+   </widget>
    <zorder>widget_6</zorder>
    <zorder>widget_5</zorder>
    <zorder>label_4</zorder>
@@ -298,6 +370,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <zorder>label</zorder>
    <zorder>textBrowser</zorder>
    <zorder>textBrowser_2</zorder>
+   <zorder>pushJump</zorder>
+   <zorder>widget_13</zorder>
+   <zorder>widget_14</zorder>
+   <zorder>widget_15</zorder>
+   <zorder>pushNext</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

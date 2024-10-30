@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>444</width>
-    <height>698</height>
+    <height>714</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -241,8 +241,9 @@ border-radius: 30px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: transparent; color: #eaa82d;
-line-height: 20px;</string>
+     <string notr="true">background-color: transparent;
+color: #eaa82d;
+border: none;</string>
     </property>
     <property name="lineWidth">
      <number>1</number>
@@ -269,7 +270,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: transparent;
-color: #d0d8d6;</string>
+color: #d0d8d6;
+border: none;</string>
     </property>
     <property name="html">
      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -299,7 +301,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="geometry">
      <rect>
       <x>215</x>
-      <y>645</y>
+      <y>660</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -313,7 +315,7 @@ border-radius: 10px;</string>
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>645</y>
+      <y>660</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -327,13 +329,13 @@ border-radius: 10px;</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>645</y>
+      <y>660</y>
       <width>21</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #aaaea9;
+     <string notr="true">background-color: #bfffb5;
 border-radius: 10px;</string>
     </property>
    </widget>

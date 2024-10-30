@@ -7,13 +7,18 @@ import mysql.connector
 from mysql.connector import Error
 from datetime import datetime
 import threading
-from PyQt5 import QtWidgets, QtCore 
+from PyQt6 import QtWidgets, QtCore 
 # Imports à parte
 from fpdf import FPDF
 import os
+import time
 from PyQt6 import QtWidgets
 # Iniciar plicativo
 app = QtWidgets.QApplication([])
+
+def iniciar_main():
+    main.show()
+    QTimer.singleShot(2000, nextPage1)
 
 def pular_tutorial():
     login.show()
@@ -24,6 +29,7 @@ def pular_tutorial():
 def nextPage1():
     tutorial_pt1.show()
     tutorial_pt2.close()
+    main.close()
 
 def nextPage2():
     tutorial_pt2.show()
@@ -54,5 +60,5 @@ tutorial_pt2.pushNext.clicked.connect(nextPage3) # tutorial 3
 tutorial_pt3.pushNext.clicked.connect(pular_tutorial) # sair do tutorial
 
 
-tutorial_pt1.show()
+iniciar_main()
 app.exec()

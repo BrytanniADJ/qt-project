@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>444</width>
-    <height>698</height>
+    <height>714</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -210,13 +210,13 @@ border-radius: 30px;</string>
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>645</y>
+      <y>660</y>
       <width>21</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #aaaea9;
+     <string notr="true">background-color: #bfffb5;
 border-radius: 10px;</string>
     </property>
    </widget>
@@ -224,7 +224,7 @@ border-radius: 10px;</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>645</y>
+      <y>660</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -238,7 +238,7 @@ border-radius: 10px;</string>
     <property name="geometry">
      <rect>
       <x>215</x>
-      <y>645</y>
+      <y>660</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -282,6 +282,56 @@ border-radius: 10px;</string>
      <string>🠔</string>
     </property>
    </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>330</y>
+      <width>351</width>
+      <height>246</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: #eaa82d;
+border: none;</string>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans'; font-size:18pt; font-weight:700;&quot;&gt;Além de fazer seu pedido, com esse APP você poderá conhecer as hortas da nossa cidade, interagir com os produtores e contribuir para a sustentabilidade da região!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>105</y>
+      <width>191</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagens/Captura de tela 2024-10-30 092808.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
    <zorder>widget_6</zorder>
    <zorder>widget_5</zorder>
    <zorder>widget</zorder>
@@ -300,6 +350,8 @@ border-radius: 10px;</string>
    <zorder>widget_14</zorder>
    <zorder>pushNext</zorder>
    <zorder>pushBack</zorder>
+   <zorder>textBrowser</zorder>
+   <zorder>label_2</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

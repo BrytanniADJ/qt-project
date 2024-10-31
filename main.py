@@ -1,18 +1,16 @@
 # principais Imports
-import sys
-from PyQt6 import uic, QtWidgets
-from PyQt6.QtWidgets import QApplication, QErrorMessage
+from PyQt6 import uic, QtWidgets, QtCore
 from PyQt6.QtCore import QTimer
-import mysql.connector
+# Imports à parte
+from PyQt6.QtWidgets import QApplication, QErrorMessage
 from mysql.connector import Error
 from datetime import datetime
-import threading
-from PyQt6 import QtWidgets, QtCore 
-# Imports à parte
+import mysql.connector
 from fpdf import FPDF
-import os
+import threading
 import time
-from PyQt6 import QtWidgets
+import sys
+import os
 # Iniciar plicativo
 app = QtWidgets.QApplication([])
 
